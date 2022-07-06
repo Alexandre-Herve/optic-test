@@ -30,7 +30,7 @@ paths:
               schema:
                 type: string
           content:
-            application/json:    
+            application/json:
               schema:
                 $ref: "#/components/schemas/Pets"
         default:
@@ -64,6 +64,12 @@ paths:
           in: path
           required: true
           description: The id of the pet to retrieve
+          schema:
+            type: string
+        - name: debug
+          in: cookie
+          required: true
+          description: A debug param
           schema:
             type: string
       responses:
