@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: optic run
-        uses: opticdev/github-action@v1
+        uses: opticdev/github-action@8e9914beea6ab5e5464ed428a5859239347abb2d
         with:
           token: ${{ secrets.OPTIC_TOKEN }} # You will need to connect up your secret here
           base: ${{ github.event.pull_request.base.ref }}
