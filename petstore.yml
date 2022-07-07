@@ -72,12 +72,6 @@ paths:
           description: A debug param
           schema:
             type: string
-        - name: debug2
-          in: query
-          required: false
-          description: A debug param 2
-          schema:
-            type: string
       responses:
         '200':
           description: Expected response to a valid request
