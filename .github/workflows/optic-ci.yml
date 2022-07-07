@@ -13,5 +13,5 @@ jobs:
         env:
           OPTIC_ENV: staging
         with:
-          token: ${{ secrets.OPTIC_TOKEN }} # You will need to connect up your secret here
+          token: ${{ secrets.OPTIC_TOKEN_STAGING }}
           base: ${{ github.event.pull_request.base.ref }}
