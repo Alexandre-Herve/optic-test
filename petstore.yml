@@ -75,7 +75,7 @@ paths:
         - name: debug2
           in: query
           required: true
-          description: A debug param 234567890122
+          description: A debug param 23456789012
           schema:
             type: string
         - name: debug3
