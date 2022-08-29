@@ -78,18 +78,6 @@ paths:
           description: A debug param 234567890123
           schema:
             type: string
-        - name: debug3
-          in: query
-          required: true
-          description: A debug param
-          schema:
-            type: string
-        - name: debug4
-          in: query
-          required: true
-          description: A debug param
-          schema:
-            type: string
       responses:
         '200':
           description: Expected response to a valid request
