@@ -75,15 +75,15 @@ paths:
         - name: debug2
           in: query
           required: true
-          description: A debug param 2345678901234
+          description: A debug param 23456789012345
           schema:
             type: string
         - name: debug3
           in: query
           required: true
-          description: A debug param 
+          description: A debug param
           schema:
-            type: string            
+            type: string
       responses:
         '200':
           description: Expected response to a valid request
