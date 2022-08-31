@@ -23,7 +23,7 @@ paths:
             format: int32
         - name: petId2345
           in: query
-          required: false
+          required: true
           description: The id of the pet to retrievee
           schema:
             type: string
