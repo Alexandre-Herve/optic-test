@@ -60,7 +60,7 @@ paths:
       tags:
         - pets
       parameters:
-        - name: petId2
+        - name: petId23
           in: path
           required: false
           description: The id of the pet to retrieve
