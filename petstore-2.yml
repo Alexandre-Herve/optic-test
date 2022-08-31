@@ -21,6 +21,12 @@ paths:
           schema:
             type: integer
             format: int32
+        - name: petId2345
+          in: query
+          required: true
+          description: The id of the pet to retrieve
+          schema:
+            type: string
       responses:
         '200':
           description: A paged array of pets
