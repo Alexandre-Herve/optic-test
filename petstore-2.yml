@@ -66,7 +66,7 @@ paths:
           description: The id of the pet to retrieve
           schema:
             type: string
-        - name: petId234
+        - name: petId2345
           in: path
           required: true
           description: The id of the pet to retrieve
