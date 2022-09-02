@@ -69,7 +69,7 @@ paths:
         - name: debug
           in: cookie
           required: true
-          description: A debug param
+          description: A debug params
           schema:
             type: string
         - name: debug2
