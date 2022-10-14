@@ -24,7 +24,7 @@ paths:
         - name: petId2345
           in: query
           required: true
-          description: The id of the pet to retrievee
+          description: The id of the pet to retrieveee
           schema:
             type: string
       responses:
