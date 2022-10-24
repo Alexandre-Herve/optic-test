@@ -17,7 +17,7 @@ paths:
         - name: limit
           in: query
           description: How many items to return at one time (max 100)
-          required: false
+          required: true
           schema:
             type: integer
             format: int32
@@ -30,7 +30,7 @@ paths:
               schema:
                 type: string
           content:
-            application/json:    
+            application/json:
               schema:
                 $ref: "#/components/schemas/Pets"
         default:
@@ -64,6 +64,24 @@ paths:
           in: path
           required: true
           description: The id of the pet to retrieve
+          schema:
+            type: string
+        - name: debug
+          in: cookie
+          required: true
+          description: A debug params
+          schema:
+            type: string
+        - name: debug2
+          in: query
+          required: true
+          description: A debug param 23490878654321011112345
+          schema:
+            type: string
+        - name: debug3
+          in: query
+          required: true
+          description: A debug param
           schema:
             type: string
       responses:
