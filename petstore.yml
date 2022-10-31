@@ -16,7 +16,7 @@ paths:
       parameters:
         - name: limit
           in: query
-          description: How many items to return at one time (max 100)
+          description: How many items to return at one time (max 110)
           required: false
           schema:
             type: integer
@@ -55,7 +55,7 @@ paths:
                 $ref: "#/components/schemas/Error"
   /pets/{petId}:
     get:
-      summary: Info for a specific pet
+      summary: Info for a specific pets
       operationId: showPetById
       tags:
         - pets
@@ -86,6 +86,7 @@ components:
       required:
         - id
         - name
+        - tag
       properties:
         id:
           type: integer
