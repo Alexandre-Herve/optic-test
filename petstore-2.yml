@@ -86,7 +86,6 @@ components:
       required:
         - id
         - name
-        - tag
       properties:
         id:
           type: integer
